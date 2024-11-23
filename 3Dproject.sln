@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Dproject", "3Dproject\3Dproject.csproj", "{2276B43D-A1E0-4A57-BD84-50DF7D038A3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DF63B5F-E658-47A6-B79D-D28EF3310B71} = {5DF63B5F-E658-47A6-B79D-D28EF3310B71}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Dinterface", "..\3Dinterface\3Dinterface\3Dinterface.csproj", "{5DF63B5F-E658-47A6-B79D-D28EF3310B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2276B43D-A1E0-4A57-BD84-50DF7D038A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2276B43D-A1E0-4A57-BD84-50DF7D038A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2276B43D-A1E0-4A57-BD84-50DF7D038A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2276B43D-A1E0-4A57-BD84-50DF7D038A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF63B5F-E658-47A6-B79D-D28EF3310B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF63B5F-E658-47A6-B79D-D28EF3310B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF63B5F-E658-47A6-B79D-D28EF3310B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF63B5F-E658-47A6-B79D-D28EF3310B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
